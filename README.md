@@ -1,11 +1,12 @@
-# personal_finance_analyzer_for_DeutscheBank_statements
+# 🇩🇪 German Personal Finance Analyzer
 
 Brief description
 -----------------
-PErsonal Finance Analyzer is a small CLI tool to parse German bank statement PDFs, extract transactions, categorize income and spending, and generate a simple monthly financial report (CSV + chart image).
+Turn PDF bank statements into financial insights. This Personal Finance Analyzer is a small, purpose-built Python command line tool to parse German bank PDF statements, auto-categorize your spending, and generate a simple visual report (CSV + pie chart image) - all without your financial data ever leaving your computer.
 
 Key features
 ------------
+
 - Parse German-formatted monetary values and extract transactions from PDF bank statements using `pdfplumber`.
 - Categorize transactions into user-friendly groups and flag recurring vs one-time expenses.
 - Produce a cleaned CSV (`final_report.csv`) and a visual report image (`financial_report.png`).
@@ -19,7 +20,7 @@ Requirements
 
 Quick usage
 -----------
-Run the analyzer on a German bank statement PDF:
+Run the analyzer on a German Bank statement PDF:
 
 python finance_analyzer.py /path/to/bank_statement.pdf --out-dir out --save-raw-csv
 
