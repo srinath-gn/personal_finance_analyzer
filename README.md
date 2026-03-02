@@ -1,4 +1,4 @@
-# personal_finance_analyzer
+# personal_finance_analyzer_for_DeutscheBank_statements
 
 Brief description
 -----------------
