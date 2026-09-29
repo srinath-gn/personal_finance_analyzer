@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Private local configuration (personal paths)
+config.py
+
+# Workflow folders: keep the folder, never the contents
+inbox/*
+!inbox/.gitkeep
+archive/*
+!archive/.gitkeep
+error/*
+!error/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Default report output
+output/
+
+# Financial data and generated reports
+*.pdf
+*.csv
+*.png
+*.log
+*.error.txt
+processing_complete.txt
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
